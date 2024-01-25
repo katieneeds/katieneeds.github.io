@@ -1,6 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-size: 1.5em;
+    font-family:"Myriad-pro-1", "Myriad-pro-2", Helvetica, Arial, sans-serif;
 }
 nav ul, footer ul {
     font-family:"Myriad-pro-1", "Myriad-pro-2", Helvetica, Arial, sans-serif;
@@ -30,10 +32,6 @@ p {
     line-height: 1.4em;
     color: #333;
     font-family: "Myriad-pro-1", "Myriad-pro-2", Helvetica, Arial, sans-serif;
-}
-body {
-    font-size: 1.5em;
-    font-family:"Myriad-pro-1", "Myriad-pro-2", Helvetica, Arial, sans-serif;
 }
 footer {
     border-top: 1px solid #d5d5d5;
