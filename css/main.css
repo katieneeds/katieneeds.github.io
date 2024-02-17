@@ -13,10 +13,16 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 2em;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+
+nav a {
+    color: #888; /* Darker grey on hover */
+
 }
 nav {
     border-top: 1px solid #d5d5d5;
@@ -38,17 +44,17 @@ h2 {
 }
 
 a {
-  color: #888; /* Light grey */
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 a:hover {
   color: #333; /* Darker grey on hover */
+
 }
 
 a:visited {
-  color: #888;
+  color: #333;
 }
 
 }
