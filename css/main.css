@@ -5,7 +5,9 @@ body {
 
 }
 li {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+
 }
 nav ul, footer ul {
     padding: 0px;
@@ -36,13 +38,17 @@ h2 {
 }
 
 a {
-  color: #blue;
+  color: #888; /* Light grey */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #dark-blue;
+  color: #333; /* Darker grey on hover */
+}
+
+a:visited {
+  color: #888;
 }
 
 }
