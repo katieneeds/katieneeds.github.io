@@ -94,7 +94,7 @@ element.style {
 
 /* Resetting styles for the img tag */
 img {
-    max-width: 95%;
+    max-width: 100%;
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove extra space below inline-block elements */
     margin: 0 auto; /* Center the image horizontally within its container */
