@@ -99,3 +99,8 @@ img {
     display: block; /* Remove extra space below inline-block elements */
     margin: 0 auto; /* Center the image horizontally within its container */
 }
+
+/* Add space between the images */
+.homepage-image + .homepage-image {
+    margin-left: 5px; /* Adjust the space as needed */
+}
