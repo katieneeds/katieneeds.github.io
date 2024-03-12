@@ -77,25 +77,25 @@ ul.posts li {
 }
 element.style {
 }
+/* Styles for the image container */
+.image-container {
+    display: flex;
+}
+
+/* Styles for each image within the container */
 .homepage-image {
-    width: 500px;
-    height: 100%;
+    width: 50%; /* Each image takes 50% of the container width */
+    height: auto;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 0;
-    display: block;
+    box-sizing: border-box; /* Include padding and border in the total width/height */
 }
-img {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    display: inline-block;
-}
+
+/* Resetting styles for the img tag */
 img {
     max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below inline-block elements */
+    margin: 0 auto; /* Center the image horizontally within its container */
 }
